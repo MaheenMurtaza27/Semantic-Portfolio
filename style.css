@@ -1,0 +1,66 @@
+header {
+background-color: black;
+color: white;
+text-align: center;
+padding: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 12px;
+}
+nav a:hover{
+    color: yellow;
+}
+button
+{
+background-color: white;
+border: 1px solid black;
+font-size: 20px;
+margin-left: 10px;
+padding: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15px;
+}
+.container{
+max-width: 800px;
+margin: auto;
+}
+.card{
+    background-color: lightgrey;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+.container0{
+max-width: 800px;
+margin: auto;
+}
+.card{
+    background-color: lightgrey;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+.contact section{
+background: white;
+padding: 50px 20px;
+display: flex;
+}
+.card{
+    
+}
+ 
