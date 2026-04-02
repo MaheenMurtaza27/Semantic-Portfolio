@@ -60,7 +60,166 @@ background: white;
 padding: 50px 20px;
 display: flex;
 }
-.card{
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section spacing */
+.contact.section {
+  padding: 50px 20px;
+}
+
+.contact-card {
+  background-color: #cfcfcf;
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #888;
+  text-align: center;
+}
+
+/* Heading */
+.contact-card h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Inputs */
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #777;
+  font-size: 1rem;
+}
+
+/* Textarea */
+textarea {
+  resize: none;
+}
+
+/* Button */
+button {
+  width: fit-content;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  align-self: center;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Body */
+body {
+  background-color: #e6e6e6;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section */
+.courses-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.courses-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Container */
+.courses-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Cards (same style as About & Contact) */
+.course-card {
+  background-color: #cfcfcf;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #888;
+}
+
+.course-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  font-size: 1rem;
 }
  
